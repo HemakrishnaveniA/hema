@@ -4,7 +4,7 @@ from django.shortcuts import render
 
 @csrf_exempt  # Disabling CSRF for demonstration purposes, use appropriate CSRF handling in production
 def index(request):
-    return render(request, 'main.html')
+    return render(request, 'index.html')
 
 @csrf_exempt  # Disabling CSRF for demonstration purposes, use appropriate CSRF handling in production
 def vendor(request):
